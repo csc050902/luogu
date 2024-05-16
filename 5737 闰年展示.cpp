@@ -7,7 +7,7 @@ int main(){
 	int cnt=0;
 	for(int i=begin;i<=end;i++){
 		if((i%4==0&&i%100!=0)||i%400==0){//判断这年是不是普通闰年或者世纪闰年。
-			ans[cnt++]=i;//记答案,次数加一
+			ans[cnt++]=i;
 		}
 	}
 	cout<<cnt<<endl;//先输出次数
